@@ -15,18 +15,29 @@ public class Entrada {
         //segun el dato que guarda: String, char, byte/shot/int/long, double/float,
         //tipo nombre = valor
 
-        String nombreLegal = "Alejandro";
+        String nombreLegal = new String("Alejandro");
         String nombre = "null";
-        char letra = 'r';
+        char letra = 'R';
+        Character letraCompleta = 'a';
         int edad = 19;
+        Integer numeroComplejo = 2;
         double altura = 1.70;
+        Double alturaCompleta = 1.87;
         boolean acierto = false;
+        Boolean aciertoCompleto = true;
+        final String DNI = "123R";
 
+
+        // segun la forma de contruirse: primitivos (solo guarda el valor) / complejos (ademas del valor se guarda una funcionalidad)
+        // segun la mutabilidad del dato: mutables / no mutables (constante)
+        // segun el scope de la variable: metodo (Bolque) / clase
+
+        System.out.println("Mi DNI es " +DNI);
         System.out.println("Mi nombre es "+nombreLegal);
         System.out.println("La letra de mi DNI es "+letra);
         System.out.println("Mi edad es "+edad);
         System.out.println("Mi altura es "+altura);
-        System.out.println("El resultado de la evaluacion es "+acierto);
+        System.out.println("Funcion de moberse "+acierto);
         System.out.println("hola mundo");
         System.out.println(9*6);
         System.out.println(true);
