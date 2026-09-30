@@ -10,5 +10,9 @@ public class ejercicio12 {
         lector.close();
         boolean iguales = palabra1.equals(palabra2);
         System.out.println("son iguales"+iguales);
+        iguales = palabra1.equalsIgnoreCase(palabra2);
+        System.out.println("son iguales sin case"+iguales);
+        boolean comparaLong = palabra1.length() < palabra2.length();
+        System.out.println("es mas pequeña la 1a palabra"+comparaLong);
     }
 }
