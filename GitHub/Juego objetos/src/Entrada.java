@@ -25,5 +25,27 @@ public class Entrada {
         System.out.println(jugador2.numeroVidas);
         System.out.println(jugador2.habilidad);
         System.out.println(jugador2.estrella);
+
+
+        Jugador jugador3 = new Jugador("pepe",10,1000,false);
+        // correo = null nombre = null numeroVidas = 0 habilidad = 0 estrella = false
+        System.out.println(jugador3.nombre);
+        System.out.println(jugador3.numeroVidas);
+        System.out.println(jugador3.habilidad);
+        System.out.println(jugador3.estrella);
+
+        Jugador jugador4 = new Jugador("SR.Tortuga",100,100000,true);
+        // correo = null nombre = null numeroVidas = 0 habilidad = 0 estrella = false
+        System.out.println(jugador4.nombre);
+        System.out.println(jugador4.numeroVidas);
+        System.out.println(jugador4.habilidad);
+        System.out.println(jugador4.estrella);
+
+        Jugador jugador5 = new Jugador("Alejandro",50,200,true);
+        // correo = null nombre = null numeroVidas = 0 habilidad = 0 estrella = false
+        System.out.println(jugador5.nombre);
+        System.out.println(jugador5.numeroVidas);
+        System.out.println(jugador5.habilidad);
+        System.out.println(jugador5.estrella);
     }
 }
